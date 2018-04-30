@@ -8,7 +8,7 @@ RUN yum install -y wget \
  && yum localinstall -y squid-3.1.23-24.el6.x86_64.rpm \
  && rm /etc/squid/squid.conf
 
-COPY squid.conf /etc/squd/squid.conf
+COPY squid.conf /etc/squid/squid.conf
 COPY entrypoint.sh /sbin/entrypoint.sh
 RUN chmod 755 /sbin/entrypoint.sh
 
