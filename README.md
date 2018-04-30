@@ -4,6 +4,11 @@
 
 ## Usage
 
-```
+```bash
 docker run -d --name squid -p 3128:3128 tkeydll/docker-squid-legacy:3.2
 ```
+
+## Versions
+
+- CentOS 6
+- Squid 3.2
